@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF81BF792BCEBC2A00868C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */; };
+		AF81BF7B2BCEBC2A00868C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */; };
+		AF81BF7D2BCEBC2A00868C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */; };
+		AF81BF802BCEBC2A00868C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */; };
+		AF81BF822BCEBC2C00868C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF812BCEBC2C00868C08 /* Assets.xcassets */; };
+		AF81BF852BCEBC2C00868C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */; };
+		AF81BF902BCEBC2C00868C08 /* TorchEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */; };
+		AF81BF9A2BCEBC2C00868C08 /* TorchEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */; };
+		AF81BF9C2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF81BF8C2BCEBC2C00868C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF81BF6D2BCEBC2A00868C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF81BF742BCEBC2A00868C08;
+			remoteInfo = TorchEffect;
+		};
+		AF81BF962BCEBC2C00868C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF81BF6D2BCEBC2A00868C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF81BF742BCEBC2A00868C08;
+			remoteInfo = TorchEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF81BF752BCEBC2A00868C08 /* TorchEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorchEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF81BF7F2BCEBC2A00868C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF81BF812BCEBC2C00868C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF81BF842BCEBC2C00868C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF81BF862BCEBC2C00868C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF81BF8B2BCEBC2C00868C08 /* TorchEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectTests.swift; sourceTree = "<group>"; };
+		AF81BF952BCEBC2C00868C08 /* TorchEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectUITests.swift; sourceTree = "<group>"; };
+		AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF81BF722BCEBC2A00868C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF882BCEBC2C00868C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF922BCEBC2C00868C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF81BF6C2BCEBC2A00868C08 = {
+			isa = PBXGroup;
+			children = (
+				AF81BF772BCEBC2A00868C08 /* TorchEffect */,
+				AF81BF8E2BCEBC2C00868C08 /* TorchEffectTests */,
+				AF81BF982BCEBC2C00868C08 /* TorchEffectUITests */,
+				AF81BF762BCEBC2A00868C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF81BF762BCEBC2A00868C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF81BF752BCEBC2A00868C08 /* TorchEffect.app */,
+				AF81BF8B2BCEBC2C00868C08 /* TorchEffectTests.xctest */,
+				AF81BF952BCEBC2C00868C08 /* TorchEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF81BF772BCEBC2A00868C08 /* TorchEffect */ = {
+			isa = PBXGroup;
+			children = (
+				AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */,
+				AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */,
+				AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */,
+				AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */,
+				AF81BF812BCEBC2C00868C08 /* Assets.xcassets */,
+				AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */,
+				AF81BF862BCEBC2C00868C08 /* Info.plist */,
+			);
+			path = TorchEffect;
+			sourceTree = "<group>";
+		};
+		AF81BF8E2BCEBC2C00868C08 /* TorchEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */,
+			);
+			path = TorchEffectTests;
+			sourceTree = "<group>";
+		};
+		AF81BF982BCEBC2C00868C08 /* TorchEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */,
+				AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */,
+			);
+			path = TorchEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF81BF742BCEBC2A00868C08 /* TorchEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF81BF9F2BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffect" */;
+			buildPhases = (
+				AF81BF712BCEBC2A00868C08 /* Sources */,
+				AF81BF722BCEBC2A00868C08 /* Frameworks */,
+				AF81BF732BCEBC2A00868C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorchEffect;
+			productName = TorchEffect;
+			productReference = AF81BF752BCEBC2A00868C08 /* TorchEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF81BF8A2BCEBC2C00868C08 /* TorchEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF81BFA22BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffectTests" */;
+			buildPhases = (
+				AF81BF872BCEBC2C00868C08 /* Sources */,
+				AF81BF882BCEBC2C00868C08 /* Frameworks */,
+				AF81BF892BCEBC2C00868C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF81BF8D2BCEBC2C00868C08 /* PBXTargetDependency */,
+			);
+			name = TorchEffectTests;
+			productName = TorchEffectTests;
+			productReference = AF81BF8B2BCEBC2C00868C08 /* TorchEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF81BF942BCEBC2C00868C08 /* TorchEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF81BFA52BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffectUITests" */;
+			buildPhases = (
+				AF81BF912BCEBC2C00868C08 /* Sources */,
+				AF81BF922BCEBC2C00868C08 /* Frameworks */,
+				AF81BF932BCEBC2C00868C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF81BF972BCEBC2C00868C08 /* PBXTargetDependency */,
+			);
+			name = TorchEffectUITests;
+			productName = TorchEffectUITests;
+			productReference = AF81BF952BCEBC2C00868C08 /* TorchEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF81BF6D2BCEBC2A00868C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AF81BF742BCEBC2A00868C08 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AF81BF8A2BCEBC2C00868C08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AF81BF742BCEBC2A00868C08;
+					};
+					AF81BF942BCEBC2C00868C08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AF81BF742BCEBC2A00868C08;
+					};
+				};
+			};
+			buildConfigurationList = AF81BF702BCEBC2A00868C08 /* Build configuration list for PBXProject "TorchEffect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF81BF6C2BCEBC2A00868C08;
+			productRefGroup = AF81BF762BCEBC2A00868C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF81BF742BCEBC2A00868C08 /* TorchEffect */,
+				AF81BF8A2BCEBC2C00868C08 /* TorchEffectTests */,
+				AF81BF942BCEBC2C00868C08 /* TorchEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF81BF732BCEBC2A00868C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF81BF852BCEBC2C00868C08 /* LaunchScreen.storyboard in Resources */,
+				AF81BF822BCEBC2C00868C08 /* Assets.xcassets in Resources */,
+				AF81BF802BCEBC2A00868C08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF892BCEBC2C00868C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF932BCEBC2C00868C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF81BF712BCEBC2A00868C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF81BF7D2BCEBC2A00868C08 /* ViewController.swift in Sources */,
+				AF81BF792BCEBC2A00868C08 /* AppDelegate.swift in Sources */,
+				AF81BF7B2BCEBC2A00868C08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF872BCEBC2C00868C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF81BF902BCEBC2C00868C08 /* TorchEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF81BF912BCEBC2C00868C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF81BF9C2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift in Sources */,
+				AF81BF9A2BCEBC2C00868C08 /* TorchEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF81BF8D2BCEBC2C00868C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF81BF742BCEBC2A00868C08 /* TorchEffect */;
+			targetProxy = AF81BF8C2BCEBC2C00868C08 /* PBXContainerItemProxy */;
+		};
+		AF81BF972BCEBC2C00868C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF81BF742BCEBC2A00868C08 /* TorchEffect */;
+			targetProxy = AF81BF962BCEBC2C00868C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF81BF7F2BCEBC2A00868C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF81BF842BCEBC2C00868C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF81BF9D2BCEBC2C00868C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF81BF9E2BCEBC2C00868C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF81BFA02BCEBC2C00868C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorchEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF81BFA12BCEBC2C00868C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorchEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF81BFA32BCEBC2C00868C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TorchEffect";
+			};
+			name = Debug;
+		};
+		AF81BFA42BCEBC2C00868C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TorchEffect";
+			};
+			name = Release;
+		};
+		AF81BFA62BCEBC2C00868C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorchEffect;
+			};
+			name = Debug;
+		};
+		AF81BFA72BCEBC2C00868C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ural.TorchEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorchEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF81BF702BCEBC2A00868C08 /* Build configuration list for PBXProject "TorchEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF81BF9D2BCEBC2C00868C08 /* Debug */,
+				AF81BF9E2BCEBC2C00868C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF81BF9F2BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF81BFA02BCEBC2C00868C08 /* Debug */,
+				AF81BFA12BCEBC2C00868C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF81BFA22BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF81BFA32BCEBC2C00868C08 /* Debug */,
+				AF81BFA42BCEBC2C00868C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF81BFA52BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF81BFA62BCEBC2C00868C08 /* Debug */,
+				AF81BFA72BCEBC2C00868C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF81BF6D2BCEBC2A00868C08 /* Project object */;
+}
