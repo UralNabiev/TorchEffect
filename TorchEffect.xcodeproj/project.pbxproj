@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AF81BF792BCEBC2A00868C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */; };
-		AF81BF7B2BCEBC2A00868C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */; };
-		AF81BF7D2BCEBC2A00868C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */; };
-		AF81BF802BCEBC2A00868C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */; };
 		AF81BF822BCEBC2C00868C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF812BCEBC2C00868C08 /* Assets.xcassets */; };
 		AF81BF852BCEBC2C00868C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */; };
-		AF81BF902BCEBC2C00868C08 /* TorchEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */; };
-		AF81BF9A2BCEBC2C00868C08 /* TorchEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */; };
-		AF81BF9C2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */; };
+		AF81BFAB2BCEBC6D00868C08 /* TorchEffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF81BFA82BCEBC6D00868C08 /* TorchEffectVC.swift */; };
+		AF81BFAC2BCEBC6D00868C08 /* fire.json in Resources */ = {isa = PBXBuildFile; fileRef = AF81BFA92BCEBC6D00868C08 /* fire.json */; };
+		AF81BFAD2BCEBC6D00868C08 /* TorchEffectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF81BFAA2BCEBC6D00868C08 /* TorchEffectVC.xib */; };
+		DDF79092265DA49501C3212B /* Pods_TorchEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B1A1EF2344FE866F087F1 /* Pods_TorchEffect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		138B1A1EF2344FE866F087F1 /* Pods_TorchEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TorchEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F1F5FC5C7409B11A46B4FC /* Pods-TorchEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorchEffect.release.xcconfig"; path = "Target Support Files/Pods-TorchEffect/Pods-TorchEffect.release.xcconfig"; sourceTree = "<group>"; };
+		4BB7298AAD1DFC0A5D5F6087 /* Pods-TorchEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorchEffect.debug.xcconfig"; path = "Target Support Files/Pods-TorchEffect/Pods-TorchEffect.debug.xcconfig"; sourceTree = "<group>"; };
 		AF81BF752BCEBC2A00868C08 /* TorchEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorchEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF81BF7F2BCEBC2A00868C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF81BF812BCEBC2C00868C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF81BF842BCEBC2C00868C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF81BF862BCEBC2C00868C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF81BF8B2BCEBC2C00868C08 /* TorchEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectTests.swift; sourceTree = "<group>"; };
 		AF81BF952BCEBC2C00868C08 /* TorchEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectUITests.swift; sourceTree = "<group>"; };
-		AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF81BFA82BCEBC6D00868C08 /* TorchEffectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchEffectVC.swift; sourceTree = "<group>"; };
+		AF81BFA92BCEBC6D00868C08 /* fire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fire.json; sourceTree = "<group>"; };
+		AF81BFAA2BCEBC6D00868C08 /* TorchEffectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TorchEffectVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF79092265DA49501C3212B /* Pods_TorchEffect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +75,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DB1D8A6F81A4AA254513BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB7298AAD1DFC0A5D5F6087 /* Pods-TorchEffect.debug.xcconfig */,
+				15F1F5FC5C7409B11A46B4FC /* Pods-TorchEffect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		318AA0E2D115B7EE3AF6CB61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138B1A1EF2344FE866F087F1 /* Pods_TorchEffect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF81BF6C2BCEBC2A00868C08 = {
 			isa = PBXGroup;
 			children = (
 				AF81BF772BCEBC2A00868C08 /* TorchEffect */,
-				AF81BF8E2BCEBC2C00868C08 /* TorchEffectTests */,
-				AF81BF982BCEBC2C00868C08 /* TorchEffectUITests */,
 				AF81BF762BCEBC2A00868C08 /* Products */,
+				14DB1D8A6F81A4AA254513BE /* Pods */,
+				318AA0E2D115B7EE3AF6CB61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,31 +116,14 @@
 			isa = PBXGroup;
 			children = (
 				AF81BF782BCEBC2A00868C08 /* AppDelegate.swift */,
-				AF81BF7A2BCEBC2A00868C08 /* SceneDelegate.swift */,
-				AF81BF7C2BCEBC2A00868C08 /* ViewController.swift */,
-				AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */,
+				AF81BFA92BCEBC6D00868C08 /* fire.json */,
+				AF81BFA82BCEBC6D00868C08 /* TorchEffectVC.swift */,
+				AF81BFAA2BCEBC6D00868C08 /* TorchEffectVC.xib */,
 				AF81BF812BCEBC2C00868C08 /* Assets.xcassets */,
 				AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */,
 				AF81BF862BCEBC2C00868C08 /* Info.plist */,
 			);
 			path = TorchEffect;
-			sourceTree = "<group>";
-		};
-		AF81BF8E2BCEBC2C00868C08 /* TorchEffectTests */ = {
-			isa = PBXGroup;
-			children = (
-				AF81BF8F2BCEBC2C00868C08 /* TorchEffectTests.swift */,
-			);
-			path = TorchEffectTests;
-			sourceTree = "<group>";
-		};
-		AF81BF982BCEBC2C00868C08 /* TorchEffectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AF81BF992BCEBC2C00868C08 /* TorchEffectUITests.swift */,
-				AF81BF9B2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift */,
-			);
-			path = TorchEffectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF81BF9F2BCEBC2C00868C08 /* Build configuration list for PBXNativeTarget "TorchEffect" */;
 			buildPhases = (
+				1DDC6D4F4A8E99293593F231 /* [CP] Check Pods Manifest.lock */,
 				AF81BF712BCEBC2A00868C08 /* Sources */,
 				AF81BF722BCEBC2A00868C08 /* Frameworks */,
 				AF81BF732BCEBC2A00868C08 /* Resources */,
+				739B6380644F0B1EF347D344 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF81BFAD2BCEBC6D00868C08 /* TorchEffectVC.xib in Resources */,
+				AF81BFAC2BCEBC6D00868C08 /* fire.json in Resources */,
 				AF81BF852BCEBC2C00868C08 /* LaunchScreen.storyboard in Resources */,
 				AF81BF822BCEBC2C00868C08 /* Assets.xcassets in Resources */,
-				AF81BF802BCEBC2A00868C08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +255,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DDC6D4F4A8E99293593F231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TorchEffect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739B6380644F0B1EF347D344 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TorchEffect/Pods-TorchEffect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TorchEffect/Pods-TorchEffect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TorchEffect/Pods-TorchEffect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF81BF712BCEBC2A00868C08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF81BF7D2BCEBC2A00868C08 /* ViewController.swift in Sources */,
+				AF81BFAB2BCEBC6D00868C08 /* TorchEffectVC.swift in Sources */,
 				AF81BF792BCEBC2A00868C08 /* AppDelegate.swift in Sources */,
-				AF81BF7B2BCEBC2A00868C08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF81BF902BCEBC2C00868C08 /* TorchEffectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF81BF9C2BCEBC2C00868C08 /* TorchEffectUITestsLaunchTests.swift in Sources */,
-				AF81BF9A2BCEBC2C00868C08 /* TorchEffectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF81BF7E2BCEBC2A00868C08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF81BF7F2BCEBC2A00868C08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF81BF832BCEBC2C00868C08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +385,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +448,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +469,7 @@
 		};
 		AF81BFA02BCEBC2C00868C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB7298AAD1DFC0A5D5F6087 /* Pods-TorchEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +480,7 @@
 				INFOPLIST_FILE = TorchEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,6 +498,7 @@
 		};
 		AF81BFA12BCEBC2C00868C08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F1F5FC5C7409B11A46B4FC /* Pods-TorchEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,7 +509,7 @@
 				INFOPLIST_FILE = TorchEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
